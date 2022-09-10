@@ -18,14 +18,5 @@ module.exports = {
         OFFSET: 0,
         LIMIT: 30,
         PAGE: 1,
-    },
-    API_PATH: '/api/v1',
-    SEARCH: {
-        status: true
-    },
-    MONGO: {
-        SORT: [1, -1], 
-        UPDATE_BY_ID: 'findByIdAndUpdate',
-        UPDATE: 'update'
-    },
+    }
 }
