@@ -1,0 +1,37 @@
+{
+  "name": "logique-user-api",
+  "version": "1.0.0",
+  "description": "Simple User Rest Api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaliifuu27/logique-user-api.git"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "mongodb"
+  ],
+  "author": "aaliifuu27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaliifuu27/logique-user-api/issues"
+  },
+  "homepage": "https://github.com/aaliifuu27/logique-user-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.2",
+    "mongoose-sequence": "^5.3.1",
+    "xss-clean": "^0.1.1"
+  }
+}
